@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header> 
+    <p>Thank You For Taking Your Time To Give Us FeedBack</p> 
+
+    <section>
+        <article>
+            <div>
+            <form action="mailto:chukwujanefrances@gmail.com" method="post">
+                <label for="Name">Name</label> <br>
+                <input type="text" name="Name" placeholder="John Smith" required>
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email</label> <br>
+                <input type="email" name="Email" placeholder="example@gmail.com" required>
+                </div>
+                <br>
+                <div>
+                <label for="Age">Age</label> <br>
+                <input type="number" name="Age" placeholder="" required>
+                </div>
+                <br>
+                <div>
+                <label for="Mobile">Mobile Number</label> <br>
+                <input type="text" name="Mobile" placeholder="+2349060130670" required>
+                </div>
+                <br>
+                <div>
+                <label for="Gender">Gender</label><br>
+                <input type="radio" name="gender" value="Male" required>Male <br>
+                <input type="radio" name="gender" value="Female" required>Female <br>
+                <input type="radio" name="gender" value="Others" required>Others
+                </div><br>
+                <div>
+                    <label for="Country">County Of Residence</label> <br>
+                    <select name="Country" id="Country" required>
+                        <option name="Country" id="">Country</option>
+                        <option name="Nigeria" id="NG">Nigeria</option>
+                        <option name="Ghana" id="GH">Ghana</option>
+                        <option name="South-Africa" id="SA">South-Africa</option>
+                        <option name="SeyChelles" id="SC">SeyChelles</option>
+                        <option name="Gambia" id="GB">Gambia</option>
+                        <option name="Senegal" id="SEN">Senegal</option>
+                        <option name="Cameroun" id="CAM">Cameroun</option>
+                        </select>
+                        </div>
+                        <br>
+                <div>
+                <label for="Role">Choose A Role That Best Describes You</label> <br>
+                <select name="Role" id="Role" required>
+                    <option name="Role" id="">Role</option>
+                    <option name="Student" id="">Student</option>
+                    <option name="Intern" id="">Intern</option>
+                    <option name="Software Developer" id="">Software Developer</option>
+                    <option name="Full Stack Developer" id="">Full Stack Developer</option>
+                    <option name="Product Designer" id="">Product Designer</option>
+                    <option name="Product Manager" id="">Product Manager</option>
+                    <option name="Data Scientist" id="">Data Scientist</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div>
+                <label for="Rating">Would You Recommend Our Product To A Friend</label><br>
+                <input type="radio" name="Rating" value="Never" required>Never <br>
+                <input type="radio" name="Rating" value="Maybe" required>Maybe <br>
+                <input type="radio" name="Rating" value="Likely" required>Likely <br>
+                <input type="radio" name="Rating" value="Definitely" required>Definitely
+                </div><br>
+                <div>
+                <label for="Review">Select Things You Liked About Our Product</label><br>
+                <input type="checkbox" name="Review" value="UI" required>UI <br>
+                <input type="checkbox" name="Review" value="Features" required>Features <br>
+                <input type="checkbox" name="Review" value="Service" required>Service <br>
+                <input type="checkbox" name="Review" value="Simpleness" required>Simpleness <br>
+                <input type="checkbox" name="Review" value="Speed" required>Speed
+                </div>
+                <br>
+                <div>
+                <label for="Message">Remarks</label> <br>
+                <textarea name="Message" placeholder="Tell Us How Can We Improve " id="" cols="30" rows="10" required></textarea>
+            </div>
+            <br>
+            <div>
+                 <button type="submit">Submit</button>
+            </div>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <div>
+            <p>copyright &copy; 2022 Survey Form</p>
+        </div>
+    </footer>
+</body>
+</html>
